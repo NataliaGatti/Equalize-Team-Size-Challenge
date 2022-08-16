@@ -1,0 +1,17 @@
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - lib/equalize_team_size.rb
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - lib/equalize_team_size.rb
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/equalize_team_size_spec.rb
+
+Layout/LineLength:
+   Max: 200
